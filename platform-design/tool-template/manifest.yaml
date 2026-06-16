@@ -1,0 +1,38 @@
+# ─── Tool manifest ───────────────────────────────────────────────────
+# Copy this directory to tools/<your-team>/<your-tool>/ and fill it in.
+# On PR, CI validates this file against contracts/manifest.schema.json,
+# runs your declared tests, builds the image, and registers the tool on merge.
+
+id: <team>/<tool-name>        # REQUIRED. namespaced, lowercase-with-dashes
+version: 0.1.0                # REQUIRED. semver — bump on every change
+name: <Human readable name>   # REQUIRED. shown in the catalog and web UI
+description: >                # REQUIRED. embedded for chatbot discovery —
+  One or two sentences on what this tool does and when to use it.
+category: <category>          # e.g. extraction | matching | generation | agent
+owner: <team>                 # REQUIRED. must match a CODEOWNERS entry
+maintainer: <name-or-alias>   # REQUIRED. who to ping when it breaks
+visibility: experimental      # experimental | stable | deprecated
+
+interface:
+  input_schema:               # REQUIRED. JSON Schema — the single source of truth.
+    type: object              # Drives validation, the SDK method, the web form, docs.
+    required: []
+    properties: {}
+  output_schema:              # REQUIRED. JSON Schema for the return value.
+    type: object
+    properties: {}
+
+execution:
+  mode: sync                  # sync (fast, inline) | async (queued job) | streaming
+  timeout_seconds: 30
+  max_concurrency: 10
+  resources: { cpu: 1, memory_mb: 512, gpu: false }
+
+dependencies: []              # [] | [llm] | [embeddings] | [llm, embeddings, vector_store]
+permissions:
+  scopes: []                  # least privilege, e.g. [files:read, files:write]
+metering:
+  unit: per_call              # per_call | per_page | per_token | per_row
+
+runtime:
+  worker_pool: default        # which pool the orchestrator dispatches to

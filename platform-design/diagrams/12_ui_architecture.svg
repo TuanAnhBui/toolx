@@ -1,0 +1,33 @@
+<svg viewBox="0 0 680 380" xmlns="http://www.w3.org/2000/svg">
+<style>
+text{font-family:'Segoe UI',Helvetica,Arial,sans-serif;}
+.th{font-weight:600;font-size:14px;fill:#1f2733;}
+.ts{font-size:12px;fill:#5a6472;}
+.t{font-size:13px;fill:#1f2733;}
+.lbl{font-size:11px;fill:#8a93a0;font-weight:600;}
+.arr{stroke:#5a6472;stroke-width:1.6;fill:none;}
+rect{fill:#ffffff;}
+.c-purple rect{fill:#f2ecfa;stroke:#6b4ea0;stroke-width:1.2;}
+.c-teal rect{fill:#e6f5f3;stroke:#1f8a86;stroke-width:1.2;}
+.c-coral rect{fill:#fbece9;stroke:#c75c54;stroke-width:1.2;}
+.c-amber rect{fill:#fbf2dd;stroke:#b07d12;stroke-width:1.2;}
+.c-blue rect{fill:#e9f1fb;stroke:#2f6fb0;stroke-width:1.2;}
+.c-gray rect{fill:#eef0f3;stroke:#5a6472;stroke-width:1.2;}
+.c-purple .th{fill:#3d2d63;}.c-teal .th{fill:#0f5b58;}.c-coral .th{fill:#8f352f;}.c-amber .th{fill:#7a5408;}.c-blue .th{fill:#1f4e80;}.c-gray .th{fill:#2b323d;}
+</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#5a6472" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<g class="c-teal"><rect x="40" y="40" width="600" height="50" rx="8"/><text class="th" x="340" y="62" text-anchor="middle">App shell</text><text class="ts" x="340" y="80" text-anchor="middle">routing · layout · theming · navigation</text></g>
+<line x1="340" y1="90" x2="340" y2="110" class="arr" marker-end="url(#arrow)"/>
+<text class="ts" x="40" y="106">Feature modules — added phase by phase</text>
+<g class="c-coral"><rect x="44" y="116" width="185" height="46" rx="8"/><text class="th" x="136" y="136" text-anchor="middle">Catalog</text><text class="ts" x="136" y="152" text-anchor="middle">browse tools · B</text></g>
+<g class="c-coral"><rect x="251" y="116" width="185" height="46" rx="8"/><text class="th" x="343" y="136" text-anchor="middle">Tool runner</text><text class="ts" x="343" y="152" text-anchor="middle">run + status · A/B</text></g>
+<g class="c-coral"><rect x="458" y="116" width="185" height="46" rx="8"/><text class="th" x="550" y="136" text-anchor="middle">Chain builder</text><text class="ts" x="550" y="152" text-anchor="middle">compose apps · C</text></g>
+<g class="c-coral"><rect x="44" y="174" width="185" height="46" rx="8"/><text class="th" x="136" y="194" text-anchor="middle">Chatbot</text><text class="ts" x="136" y="210" text-anchor="middle">discover + plan · C</text></g>
+<g class="c-coral"><rect x="251" y="174" width="185" height="46" rx="8"/><text class="th" x="343" y="194" text-anchor="middle">Dashboards</text><text class="ts" x="343" y="210" text-anchor="middle">usage + scores · B/C</text></g>
+<g class="c-coral"><rect x="458" y="174" width="185" height="46" rx="8"/><text class="th" x="550" y="194" text-anchor="middle">Admin</text><text class="ts" x="550" y="210" text-anchor="middle">register + RBAC · D</text></g>
+<line x1="340" y1="220" x2="340" y2="244" class="arr" marker-end="url(#arrow)"/>
+<g class="c-blue"><rect x="40" y="246" width="600" height="94" rx="8"/>
+<text class="th" x="340" y="270" text-anchor="middle">Shared foundation — built in Phase A, reused by every module</text>
+<text class="ts" x="340" y="294" text-anchor="middle">design tokens · generated API client (the SDK) · auth &amp; RBAC context</text>
+<text class="ts" x="340" y="314" text-anchor="middle">server-state (cache · poll · stream) · JSON-Schema form renderer · realtime</text></g>
+</svg>

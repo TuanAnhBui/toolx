@@ -1,0 +1,47 @@
+<svg viewBox="0 0 680 540" xmlns="http://www.w3.org/2000/svg">
+<style>
+text{font-family:'Segoe UI',Helvetica,Arial,sans-serif;}
+.th{font-weight:600;font-size:14px;fill:#1f2733;}
+.ts{font-size:12px;fill:#5a6472;}
+.t{font-size:13px;fill:#1f2733;}
+.lbl{font-size:11px;fill:#8a93a0;font-weight:600;}
+.arr{stroke:#5a6472;stroke-width:1.6;fill:none;}
+rect{fill:#ffffff;}
+.c-purple rect{fill:#f2ecfa;stroke:#6b4ea0;stroke-width:1.2;}
+.c-teal rect{fill:#e6f5f3;stroke:#1f8a86;stroke-width:1.2;}
+.c-coral rect{fill:#fbece9;stroke:#c75c54;stroke-width:1.2;}
+.c-amber rect{fill:#fbf2dd;stroke:#b07d12;stroke-width:1.2;}
+.c-blue rect{fill:#e9f1fb;stroke:#2f6fb0;stroke-width:1.2;}
+.c-gray rect{fill:#eef0f3;stroke:#5a6472;stroke-width:1.2;}
+.c-purple .th{fill:#3d2d63;}.c-teal .th{fill:#0f5b58;}.c-coral .th{fill:#8f352f;}.c-amber .th{fill:#7a5408;}.c-blue .th{fill:#1f4e80;}.c-gray .th{fill:#2b323d;}
+</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#5a6472" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<text class="lbl" x="40" y="38">ACCESS LAYER</text>
+<g class="c-gray"><rect x="70" y="48" width="250" height="50" rx="8"/><text class="th" x="195" y="68" text-anchor="middle">Web app</text><text class="ts" x="195" y="86" text-anchor="middle">Human users</text></g>
+<g class="c-gray"><rect x="360" y="48" width="250" height="50" rx="8"/><text class="th" x="485" y="68" text-anchor="middle">API &amp; SDK</text><text class="ts" x="485" y="86" text-anchor="middle">Developers</text></g>
+<line x1="340" y1="102" x2="340" y2="124" class="arr" marker-end="url(#arrow)"/>
+<text class="lbl" x="40" y="118">EDGE / GATEWAY</text>
+<g class="c-gray"><rect x="140" y="128" width="400" height="50" rx="8"/><text class="th" x="340" y="148" text-anchor="middle">API gateway</text><text class="ts" x="340" y="166" text-anchor="middle">Auth · rate limiting · metering</text></g>
+<line x1="340" y1="182" x2="340" y2="204" class="arr" marker-end="url(#arrow)"/>
+<text class="lbl" x="40" y="198">ORCHESTRATION</text>
+<g class="c-purple"><rect x="44" y="208" width="185" height="52" rx="8"/><text class="th" x="136" y="229" text-anchor="middle">Tool registry</text><text class="ts" x="136" y="247" text-anchor="middle">Catalog &amp; schemas</text></g>
+<g class="c-purple"><rect x="248" y="208" width="185" height="52" rx="8"/><text class="th" x="340" y="229" text-anchor="middle">Job orchestrator</text><text class="ts" x="340" y="247" text-anchor="middle">Queue &amp; scheduling</text></g>
+<g class="c-purple"><rect x="452" y="208" width="185" height="52" rx="8"/><text class="th" x="544" y="229" text-anchor="middle">Composition engine</text><text class="ts" x="544" y="247" text-anchor="middle">App chains</text></g>
+<line x1="340" y1="264" x2="340" y2="286" class="arr" marker-end="url(#arrow)"/>
+<text class="lbl" x="40" y="280">TOOL WORKERS (PLUGGABLE)</text>
+<g class="c-teal"><rect x="44" y="290" width="132" height="54" rx="8"/><text class="th" x="110" y="311" text-anchor="middle">PDF→Excel</text><text class="ts" x="110" y="329" text-anchor="middle">Extraction</text></g>
+<g class="c-teal"><rect x="197" y="290" width="132" height="54" rx="8"/><text class="th" x="263" y="311" text-anchor="middle">Matcher</text><text class="ts" x="263" y="329" text-anchor="middle">Semantic search</text></g>
+<g class="c-teal"><rect x="350" y="290" width="132" height="54" rx="8"/><text class="th" x="416" y="311" text-anchor="middle">GenAI</text><text class="ts" x="416" y="329" text-anchor="middle">assistant</text></g>
+<g class="c-teal"><rect x="503" y="290" width="132" height="54" rx="8"/><text class="th" x="569" y="311" text-anchor="middle">Generators</text><text class="ts" x="569" y="329" text-anchor="middle">Synthetic data</text></g>
+<line x1="340" y1="348" x2="340" y2="370" class="arr" marker-end="url(#arrow)"/>
+<text class="lbl" x="40" y="364">SHARED AI SERVICES</text>
+<g class="c-coral"><rect x="53" y="374" width="175" height="54" rx="8"/><text class="th" x="140" y="395" text-anchor="middle">LLM gateway</text><text class="ts" x="140" y="413" text-anchor="middle">Multi-provider</text></g>
+<g class="c-coral"><rect x="253" y="374" width="175" height="54" rx="8"/><text class="th" x="340" y="395" text-anchor="middle">Embeddings</text><text class="ts" x="340" y="413" text-anchor="middle">Vectorization</text></g>
+<g class="c-coral"><rect x="453" y="374" width="175" height="54" rx="8"/><text class="th" x="540" y="395" text-anchor="middle">Vector store</text><text class="ts" x="540" y="413" text-anchor="middle">Similarity index</text></g>
+<line x1="340" y1="432" x2="340" y2="454" class="arr" marker-end="url(#arrow)"/>
+<text class="lbl" x="40" y="448">DATA &amp; STORAGE</text>
+<g class="c-gray"><rect x="44" y="458" width="132" height="52" rx="8"/><text class="th" x="110" y="478" text-anchor="middle">Object store</text><text class="ts" x="110" y="496" text-anchor="middle">Files &amp; outputs</text></g>
+<g class="c-gray"><rect x="197" y="458" width="132" height="52" rx="8"/><text class="th" x="263" y="478" text-anchor="middle">Metadata DB</text><text class="ts" x="263" y="496" text-anchor="middle">Jobs &amp; users</text></g>
+<g class="c-gray"><rect x="350" y="458" width="132" height="52" rx="8"/><text class="th" x="416" y="478" text-anchor="middle">Message queue</text><text class="ts" x="416" y="496" text-anchor="middle">Async jobs</text></g>
+<g class="c-gray"><rect x="503" y="458" width="132" height="52" rx="8"/><text class="th" x="569" y="478" text-anchor="middle">Cache</text><text class="ts" x="569" y="496" text-anchor="middle">Hot data</text></g>
+</svg>

@@ -1,0 +1,29 @@
+<svg viewBox="0 0 680 420" xmlns="http://www.w3.org/2000/svg">
+<style>
+text{font-family:'Segoe UI',Helvetica,Arial,sans-serif;}
+.th{font-weight:600;font-size:14px;fill:#1f2733;}
+.ts{font-size:12px;fill:#5a6472;}
+.t{font-size:13px;fill:#1f2733;}
+.lbl{font-size:11px;fill:#8a93a0;font-weight:600;}
+.arr{stroke:#5a6472;stroke-width:1.6;fill:none;}
+rect{fill:#ffffff;}
+.c-purple rect{fill:#f2ecfa;stroke:#6b4ea0;stroke-width:1.2;}
+.c-teal rect{fill:#e6f5f3;stroke:#1f8a86;stroke-width:1.2;}
+.c-coral rect{fill:#fbece9;stroke:#c75c54;stroke-width:1.2;}
+.c-amber rect{fill:#fbf2dd;stroke:#b07d12;stroke-width:1.2;}
+.c-blue rect{fill:#e9f1fb;stroke:#2f6fb0;stroke-width:1.2;}
+.c-gray rect{fill:#eef0f3;stroke:#5a6472;stroke-width:1.2;}
+.c-purple .th{fill:#3d2d63;}.c-teal .th{fill:#0f5b58;}.c-coral .th{fill:#8f352f;}.c-amber .th{fill:#7a5408;}.c-blue .th{fill:#1f4e80;}.c-gray .th{fill:#2b323d;}
+</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#5a6472" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<g class="c-purple"><rect x="40" y="44" width="160" height="336" rx="12"/><text class="th" x="120" y="194" text-anchor="middle">Governance</text><text class="ts" x="120" y="214" text-anchor="middle">&amp; safety</text><text class="ts" x="120" y="236" text-anchor="middle">policy · access</text><text class="ts" x="120" y="254" text-anchor="middle">audit · lineage</text></g>
+<g class="c-blue"><rect x="220" y="44" width="420" height="56" rx="8"/><text class="th" x="430" y="68" text-anchor="middle">Agents &amp; orchestration</text><text class="ts" x="430" y="86" text-anchor="middle">executive function</text></g>
+<g class="c-blue"><rect x="220" y="114" width="420" height="56" rx="8"/><text class="th" x="430" y="138" text-anchor="middle">Event-driven proactivity</text><text class="ts" x="430" y="156" text-anchor="middle">reflexes</text></g>
+<g class="c-blue"><rect x="220" y="184" width="420" height="56" rx="8"/><text class="th" x="430" y="208" text-anchor="middle">Integration fabric</text><text class="ts" x="430" y="226" text-anchor="middle">senses &amp; hands</text></g>
+<g class="c-blue"><rect x="220" y="254" width="420" height="56" rx="8"/><text class="th" x="430" y="278" text-anchor="middle">Knowledge &amp; memory</text><text class="ts" x="430" y="296" text-anchor="middle">long-term memory</text></g>
+<g class="c-teal"><rect x="220" y="324" width="420" height="56" rx="8"/><text class="th" x="430" y="348" text-anchor="middle">Tools &amp; apps platform</text><text class="ts" x="430" y="366" text-anchor="middle">skills — today</text></g>
+<line x1="430" y1="323" x2="430" y2="312" class="arr" marker-end="url(#arrow)"/>
+<line x1="430" y1="253" x2="430" y2="242" class="arr" marker-end="url(#arrow)"/>
+<line x1="430" y1="183" x2="430" y2="172" class="arr" marker-end="url(#arrow)"/>
+<line x1="430" y1="113" x2="430" y2="102" class="arr" marker-end="url(#arrow)"/>
+</svg>

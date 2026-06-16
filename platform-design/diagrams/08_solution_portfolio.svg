@@ -1,0 +1,31 @@
+<svg viewBox="0 0 680 398" xmlns="http://www.w3.org/2000/svg">
+<style>
+text{font-family:'Segoe UI',Helvetica,Arial,sans-serif;}
+.th{font-weight:600;font-size:14px;fill:#1f2733;}
+.ts{font-size:12px;fill:#5a6472;}
+.t{font-size:13px;fill:#1f2733;}
+.lbl{font-size:11px;fill:#8a93a0;font-weight:600;}
+.arr{stroke:#5a6472;stroke-width:1.6;fill:none;}
+rect{fill:#ffffff;}
+.c-purple rect{fill:#f2ecfa;stroke:#6b4ea0;stroke-width:1.2;}
+.c-teal rect{fill:#e6f5f3;stroke:#1f8a86;stroke-width:1.2;}
+.c-coral rect{fill:#fbece9;stroke:#c75c54;stroke-width:1.2;}
+.c-amber rect{fill:#fbf2dd;stroke:#b07d12;stroke-width:1.2;}
+.c-blue rect{fill:#e9f1fb;stroke:#2f6fb0;stroke-width:1.2;}
+.c-gray rect{fill:#eef0f3;stroke:#5a6472;stroke-width:1.2;}
+.c-purple .th{fill:#3d2d63;}.c-teal .th{fill:#0f5b58;}.c-coral .th{fill:#8f352f;}.c-amber .th{fill:#7a5408;}.c-blue .th{fill:#1f4e80;}.c-gray .th{fill:#2b323d;}
+</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#5a6472" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<text class="ts" x="40" y="32">Served back as individual offerings</text>
+<g class="c-blue"><rect x="40" y="40" width="290" height="52" rx="8"/><text class="th" x="185" y="62" text-anchor="middle">Internal departments</text><text class="ts" x="185" y="80" text-anchor="middle">every team</text></g>
+<g class="c-blue"><rect x="349" y="40" width="290" height="52" rx="8"/><text class="th" x="494" y="62" text-anchor="middle">External customers</text><text class="ts" x="494" y="80" text-anchor="middle">plug &amp; play · multi-tenant</text></g>
+<line x1="185" y1="138" x2="185" y2="94" class="arr" marker-end="url(#arrow)"/>
+<line x1="494" y1="138" x2="494" y2="94" class="arr" marker-end="url(#arrow)"/>
+<text class="ts" x="40" y="130">Surface — compositions of tools</text>
+<g class="c-coral"><rect x="40" y="140" width="290" height="56" rx="8"/><text class="th" x="185" y="164" text-anchor="middle">Apps</text><text class="ts" x="185" y="182" text-anchor="middle">tool chains</text></g>
+<g class="c-coral"><rect x="349" y="140" width="290" height="56" rx="8"/><text class="th" x="494" y="164" text-anchor="middle">Solutions</text><text class="ts" x="494" y="182" text-anchor="middle">HRX · ProviderX · AnalyticX · …</text></g>
+<line x1="185" y1="244" x2="185" y2="200" class="arr" marker-end="url(#arrow)"/>
+<line x1="494" y1="244" x2="494" y2="200" class="arr" marker-end="url(#arrow)"/>
+<g class="c-teal"><rect x="40" y="246" width="599" height="62" rx="8"/><text class="th" x="340" y="272" text-anchor="middle">Tools — the core</text><text class="ts" x="340" y="291" text-anchor="middle">atomic, reusable capabilities · the registry</text></g>
+<g class="c-purple"><rect x="40" y="328" width="599" height="44" rx="8"/><text class="th" x="340" y="353" text-anchor="middle">Governance · isolation · compliance — spans every layer</text></g>
+</svg>

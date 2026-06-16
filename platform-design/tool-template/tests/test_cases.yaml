@@ -1,0 +1,14 @@
+# Declared test cases. CI runs each against the live handler and checks the
+# output against output_schema automatically. At least one case is required.
+cases:
+  - name: happy_path
+    input: {}
+    expect:
+      status: success
+      # output is validated against output_schema automatically
+
+  # - name: rejects_bad_input
+  #   input: { pages: "not-a-range" }
+  #   expect:
+  #     status: error
+  #     error_code: invalid_input

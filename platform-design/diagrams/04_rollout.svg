@@ -1,0 +1,26 @@
+<svg viewBox="0 0 680 240" xmlns="http://www.w3.org/2000/svg">
+<style>
+text{font-family:'Segoe UI',Helvetica,Arial,sans-serif;}
+.th{font-weight:600;font-size:14px;fill:#1f2733;}
+.ts{font-size:12px;fill:#5a6472;}
+.t{font-size:13px;fill:#1f2733;}
+.lbl{font-size:11px;fill:#8a93a0;font-weight:600;}
+.arr{stroke:#5a6472;stroke-width:1.6;fill:none;}
+rect{fill:#ffffff;}
+.c-purple rect{fill:#f2ecfa;stroke:#6b4ea0;stroke-width:1.2;}
+.c-teal rect{fill:#e6f5f3;stroke:#1f8a86;stroke-width:1.2;}
+.c-coral rect{fill:#fbece9;stroke:#c75c54;stroke-width:1.2;}
+.c-amber rect{fill:#fbf2dd;stroke:#b07d12;stroke-width:1.2;}
+.c-blue rect{fill:#e9f1fb;stroke:#2f6fb0;stroke-width:1.2;}
+.c-gray rect{fill:#eef0f3;stroke:#5a6472;stroke-width:1.2;}
+.c-purple .th{fill:#3d2d63;}.c-teal .th{fill:#0f5b58;}.c-coral .th{fill:#8f352f;}.c-amber .th{fill:#7a5408;}.c-blue .th{fill:#1f4e80;}.c-gray .th{fill:#2b323d;}
+</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#5a6472" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<g class="c-teal"><rect x="40" y="50" width="180" height="58" rx="8"/><text class="th" x="130" y="72" text-anchor="middle">Stage 1 · VM pilot</text><text class="ts" x="130" y="90" text-anchor="middle">~10 users · validate</text></g>
+<g class="c-amber"><rect x="250" y="50" width="180" height="58" rx="8"/><text class="th" x="340" y="72" text-anchor="middle">Validation gate</text><text class="ts" x="340" y="90" text-anchor="middle">Perf &amp; adoption</text></g>
+<g class="c-purple"><rect x="460" y="50" width="180" height="58" rx="8"/><text class="th" x="550" y="72" text-anchor="middle">Stage 2 · AKS</text><text class="ts" x="550" y="90" text-anchor="middle">Scale · multi-team</text></g>
+<line x1="224" y1="79" x2="246" y2="79" class="arr" marker-end="url(#arrow)"/>
+<line x1="434" y1="79" x2="456" y2="79" class="arr" marker-end="url(#arrow)"/>
+<g class="c-gray"><rect x="250" y="160" width="180" height="54" rx="8"/><text class="th" x="340" y="181" text-anchor="middle">Pilot metrics</text><text class="ts" x="340" y="199" text-anchor="middle">Cost · usage · perf</text></g>
+<line x1="340" y1="156" x2="340" y2="112" class="arr" marker-end="url(#arrow)"/>
+</svg>
